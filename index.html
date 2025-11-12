@@ -15,7 +15,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
         #home {
-            background-image: url("assets/images/museum_art.jpg");
+            background-image: url("assets/images/flowers.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+         #gallery {
+            background-image: url("assets/images/flowers.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -88,6 +94,87 @@
 
 
 
+    </section>
+<!-- gallery page -->
+    
+ <section id="gallery" class="min-vh-100">
+        <div class="position-absolute top-0 start-0 w-100 vh-100 bg-primary opacity-50 z-1"></div>
+        <div class="position-relative py-5 z-3">
+            <div class="container p-5">
+                <h1 class="display-1 fw-bold text-warning">Check-Out My Art</h1>
+                <h3 class="display-6 text-warning">Beautiful pieces</h3>
+                
+                <p class="lead fs-3 fw-lighter text-light mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae quaerat
+                    ad optio sapiente itaque?
+                    Vel delectus quisquam, impedit distinctio ea harum alias totam mollitia. Expedita quaerat nostrum
+                    aut in vitae!</p>
+
+                <button type="button" class="btn  btn-lg btn-warning mt-4"> support us </button>
+
+<!-- carrousel -->
+ <section class="min-vh-100">
+     <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="assets\images\art-1.jpg"
+                class="img-fluid w-100 rounded-5 p-2"
+                alt="image of cows"
+              />
+              <div class="carousel-caption d-none d-md-block">
+        <h5 class="fw-bold bg-warning fs-6 w-auto rounded-4 px-2 py-1 text-secondary">Beautiful sculptures</h5>
+        
+      </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets\images\art-2.jpg"
+                class="img-fluid w-100 rounded-5 p-2"
+                alt="picture of bird"
+              />
+              <div class="carousel-caption d-none d-md-block">
+        <h5 class="fw-bold bg-warning fs-6 w-auto rounded-4 px-2 py-1 text-secondary">Artistic Paintings</h5>
+        
+      </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets\images\art-3.jpg"
+                class="img-fluid w-100 rounded-5 p-2"
+                alt="pictue of tower"
+              />
+              <div class="carousel-caption d-none d-md-block">
+        <h5 class="fw-bold bg-warning fs-6 w-auto rounded-4 px-2 py-1 text-secondary">Craftmanship</h5>
+        
+      </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+ </section>
+                       
     </section>
 </body>
 
